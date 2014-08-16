@@ -1,0 +1,30 @@
+=meta: 0.0.1
+
+name: Module-Install-Gloom
+version: 0.01
+abstract: Module Install Support for Gloom OO
+homepage: https://metacpan.org/release/Module-Install-Gloom
+
+license: perl
+copyright: 2010-2014. Ingy döt Net.
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+  homepage: http://ingy.net
+
+requires:
+  perl: 5.8.1
+  Gloom: 0
+  Module::Install: 1.10
+
+devel:
+  git: https://github.com/ingydotnet/module-install-gloom-pm
+  bug: https://github.com/ingydotnet/module-install-gloom-pm/issues
+  irc: irc.freenode.net#pkg
+
+=travis:
+  type: perl
+  irc: irc.freenode.net#pkg
